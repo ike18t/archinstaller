@@ -14,14 +14,14 @@
 # BOOTLOADER OPTIONS
 # {{{
 # UEFI (yes/no)
-uefi='no'
+uefi='yes'
 # example:
 # uefi='no'
 
 # bootloader
 # UEFI:	(grub/gummiboot)
 # BIOS:	(grub/syslinux)
-bootloader='syslinux'
+bootloader='gummiboot'
 # example:
 # bootloader='syslinux'
 # }}}
@@ -35,7 +35,7 @@ bootloader='syslinux'
 #manual_part='no'
 
 # select drive to be formatted
-dest_disk='/dev/sda'
+dest_disk='/dev/sdb'
 # example:
 # dest_disk='/dev/sda'
 
